@@ -1,9 +1,8 @@
 <?php 
-
-use Symfony\Component\Console\Output\ConsoleOutput;
-$output = new ConsoleOutput();
-
 while (true){
-    $output->writeln('Converting');
+   
+    echo"test";
+    print('d');
     sleep(1);
+    
 }
